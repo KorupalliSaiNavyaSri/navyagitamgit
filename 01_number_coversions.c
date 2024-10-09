@@ -18,9 +18,6 @@ int main() {
         printf("%d", new_number[i]);
     printf("\n");
 
-    /*printf("Decimal: %d\n", num);
-    printf("Octal: %o\n", num);
-    printf("Hexadecimal: %x\n", num); */
-
+   
     return 0;
 }
