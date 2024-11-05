@@ -10,3 +10,7 @@ int main() {
 
     return 0;
 }
+/*Value of i : 2024112431 and its address: 2911133188
+Value of ptr_i : 2911133188 and value pointed by the pointer is : 2024112431
+
+=== Code Execution Successful ===*/
