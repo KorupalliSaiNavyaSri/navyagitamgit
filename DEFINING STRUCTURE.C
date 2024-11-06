@@ -2,7 +2,7 @@
 #include <string.h>
 struct student{
     int rollno;
-    char name[15];
+    char name[20];
     float age;
     char gender;
 };
@@ -21,7 +21,7 @@ int main() {
     return 0;
 }
 /*/tmp/F9uJ6Z0KQ5.o
-Size of student structure is 28
+Size of student structure is 32
 Roll no: 2024112431
 Name: navya sri
 Age: 20.000000
