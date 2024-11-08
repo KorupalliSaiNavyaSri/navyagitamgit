@@ -21,3 +21,10 @@ int main() {
    
     return 0;
 }
+/*/tmp/DiWoKsUN96.o
+Enter a number: 23
+Enter the base: 5
+The number 23 in base 5 is: 43
+
+
+=== Code Execution Successful ===*/
