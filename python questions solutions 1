@@ -1,0 +1,52 @@
+///1.To check whether entered number is positive or negative.///
+n=int(input())
+if n>0:
+    print("it is positive")
+else:
+    print("it is negative")
+///2)To check whether the entered number is even or odd.///
+n=int(input())
+if n%2==0:
+    print("it is even")
+else:
+    print("it is odd")
+///3).To check whether a person is eligible for voting.///
+age=int(input())
+if age>=18:
+    print("you are eligible to vote")
+else:
+    print("you are not eligible to vote")
+///4)To check whether the entered year is leap year or not///
+year=int(input())
+if year%4 ==0 and year%100 !=0 or year%400==0:
+    print("it is leap year")
+else:
+    print("it is not a leapyear")
+///5)To find maximum of two numbers.///
+a=int(input())
+b=int(input())
+if a>b:
+    print("a is greater {}".format(a))
+else:
+    print("b is greater {}".format(b))
+///6)To find maximum of 3 numbers using nested if -else///
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c:
+    print("a is greater {}".format(a))
+elif b>a and b>c:
+     print("b is greater {}".format(b))
+else:
+    print("c is greater {}".format(c))
+///7)To compute roots of quadratic equations and display the nature of roots also.///
+a=int(input())
+b=int(input())
+c=int(input())
+x=b**2-4*a*c
+if x>0:
+    print("roots are real")
+elif x==0:
+    print("roots are real and equal")
+else:
+    print("roots are complex and imaginary")
