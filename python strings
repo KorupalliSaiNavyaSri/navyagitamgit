@@ -1,0 +1,38 @@
+Write a function to check if a given string is a palindrome.
+2. Count Vowels and Consonants in a String
+3. Reverse Words in a Sentence
+4. Find the Longest Word in a String
+5. Count Frequency of Each Character
+6. Check if Two Strings are Anagrams
+7. Find All Substrings of a String
+8. Remove Duplicate Characters from a String
+9. Count Words in a String
+10. Check if a String Contains Only Digits
+
+
+
+1)
+n= input()
+if n==n[::-1]:
+    print("yes it is palindrome")
+else:
+    print("no it is palidrome")
+2)
+input_string = input()
+vowels = "aeiouAEIOU"
+vowels_count = 0
+consonants_count = 0
+
+for i in input_string:
+    if i.isalpha():
+        if i in vowels:
+            vowels_count += 1
+        else:
+            consonants_count += 1
+
+print("Vowels:", vowels_count)
+print("Consonants:", consonants_count)
+
+3)
+
+
